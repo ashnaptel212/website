@@ -380,6 +380,38 @@ h1 {
         page-break-after: avoid;
     }
 }
+.topnav{
+  background-color: black;
+  overflow: hidden;
+  width: 5000px;
+    text-decoration: none;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: lato;
+}
+.topnav a:hover{
+    text-decoration: none;
+background-color:rgb(67,222,191);
+}
+  .topnav a.active {
+    background-color: pink;
+    color: yellow;
+      text-decoration: none;
+  }
+  .iFrame iframe {
+
+    display: block;
+    margin: auto;
+    align: center;
+  }
+
 
 /* 
 	Ok so you have made it this far, that means you are very keen to on my code. 
